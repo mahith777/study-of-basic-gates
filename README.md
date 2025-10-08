@@ -63,16 +63,30 @@ Y= A⊕B
 
 
 **PROGRAM**
+input a,b;
+output c,d,e,f,g,h;
+assign c = a & b;
+assign module exp1(a,b,c,d,e,f,g,h);
+d = a | b;
+assign e = a ^ b;
+assign f = ~(a & b);
+assign g = ~(a | b);
+assign h = ~(a ^ b);
+endmodule
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 
+ Developed by:MAHITH M
+ RegisterNumber: 25001152
  
 **Logic symbol & Truthtable**
+<img width="91" height="261" alt="Screenshot 2025-10-08 092729" src="https://github.com/user-attachments/assets/63eb80cc-ec4d-4425-83c6-acc651eb0199" />
 
 **RTL realization Output:** 
+<img width="887" height="193" alt="Screenshot 2025-10-08 094611" src="https://github.com/user-attachments/assets/13124ac4-4d07-41f2-b545-a7fbdf22877e" />
 
 **RTL**
+<img width="448" height="207" alt="Screenshot 2025-10-07 114654" src="https://github.com/user-attachments/assets/6f491b05-2def-4caf-a4d9-a5f58ce3b791" />
 
 **Result:**
 
